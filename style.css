@@ -1,0 +1,19 @@
+:root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#173029;background:#f8faf7;font-synthesis:none}
+*{box-sizing:border-box}
+body{margin:0;line-height:1.8;overflow-wrap:anywhere}
+header,main,footer{width:min(860px,calc(100% - 48px));margin-inline:auto}
+header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:28px 0;border-bottom:1px solid #d5dfd7}
+a{color:#1c6750;text-underline-offset:4px}
+a:focus-visible{outline:3px solid #337855;outline-offset:5px}
+.brand{color:#173029;font-size:19px;font-weight:750;text-decoration:none;letter-spacing:-.4px}
+nav{font-size:14px}
+main{padding:68px 0 30px}
+.eyebrow{color:#476b59;font-size:13px;font-weight:700;letter-spacing:.1em;margin:0 0 20px}
+h1{font-size:clamp(32px,6vw,54px);line-height:1.25;letter-spacing:-.05em;margin:0 0 25px;word-break:keep-all}
+.lead{font-size:19px;max-width:720px;color:#40594c;margin:0 0 48px;word-break:keep-all}
+section{padding:25px 0;border-top:1px solid #d5dfd7}
+h2{font-size:20px;line-height:1.5;letter-spacing:-.02em;margin:0 0 12px}
+p{margin:10px 0}
+footer{font-size:13px;color:#516557;padding:25px 0 36px;border-top:1px solid #d5dfd7}
+.policy h1{font-size:clamp(30px,5vw,44px)}
+@media(max-width:480px){header,main,footer{width:calc(100% - 32px)}header{align-items:flex-start}main{padding-top:44px}.lead{font-size:17px}}
